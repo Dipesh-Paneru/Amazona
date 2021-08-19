@@ -58,7 +58,14 @@ a {
 a:hover {
   color: #ff8000;
 }
-
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  margin-top: 1rem;
+}
 /*header*/
 
 header a {
@@ -81,6 +88,16 @@ a.brand {
 
 .row.centre {
   justify-content: center;
+}
+.row.top {
+  align-items: flex-start;
+}
+
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
 }
 
 /*images*/
@@ -119,4 +136,7 @@ img.medium {
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+.ratingspan: last-child {
+  color: #404040;
 }

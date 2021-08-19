@@ -19,7 +19,7 @@ const data= {
             price:100,
             brand:'addidas',
             ratings: 4.0,
-            numReviews: 10,
+            numReviews: 13,
             description: 'high quality product',
         },
         {
@@ -30,7 +30,7 @@ const data= {
             price:125,
             brand:'nike',
             ratings: 4.5,
-            numReviews: 10,
+            numReviews: 15,
             description: 'high quality product',
         },
         {
@@ -51,8 +51,8 @@ const data= {
             image:'/images/p5.jpg',
             price:1200,
             brand:'gucci',
-            ratings: 4.9,
-            numReviews: 10,
+            ratings: 3.0,
+            numReviews: 20,
             description: 'high quality product',
         },
         {
